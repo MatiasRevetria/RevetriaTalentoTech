@@ -75,3 +75,7 @@ footer{
  bottom: 0;
  width: 100vw;
 }
+
+#error{
+    color: red;
+}
