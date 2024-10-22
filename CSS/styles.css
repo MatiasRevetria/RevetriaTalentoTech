@@ -1,0 +1,77 @@
+html{
+    font-size: 16px;
+}
+
+body{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10%;
+    margin: 0;
+
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    color: aliceblue;
+}
+nav{
+    padding: 5px;
+}
+nav a{
+    color: aliceblue;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#form1{
+    padding-bottom: 2%;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3%;
+    transition: all 0.2s ease-in-out;
+}
+
+.cursos{
+    width: 20%;
+    border-radius: 4%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.cursos img{
+    width: 100%;
+    border-radius: 4%;
+}
+.cursos p{
+    padding: 8px;
+}
+
+.cursos:hover {
+    background-color: rgb(160, 84, 231);
+    transform: scale(1);
+}
+
+.cursos:not(:hover) {
+    transform: scale(0.9);
+}
+
+footer{
+ background-color: darkgrey;
+ position: fixed;    
+ bottom: 0;
+ width: 100vw;
+}

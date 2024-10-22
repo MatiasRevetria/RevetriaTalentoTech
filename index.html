@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi pagina!</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
     <!-- Encabezado de la pagina-->
@@ -19,11 +19,10 @@
                 <li><a href="#">Mision de la empresa</a></li>
             </ul>
         </nav>
-        <hr>
     </header>
     <!-- Seccion Principal-->
     <main>
-        <form action="#">
+        <form action="#" id="form">
             <div>
                 <input type="text" name="user" id="user" placeholder="User">
             </div>
@@ -35,11 +34,29 @@
             </span>
             <span><a href="#">Forgot yor password?</a></span>
         </form>
-
-        <div class="cursos"></div>
-        <div class="cursos"></div>
-        <div class="cursos"></div>
-        <div class="cursos"></div>
+        <div class="container">
+            <div class="cursos">
+                <img src="./img/phyton.webp" alt="python course">
+                <p>Accedé a las tecnologías más influyentes. Este programa está diseñado para principiantes que desean iniciarse en la programación y para quienes buscan especializarse en áreas innovadoras y demandadas.</p>
+                <div class="duracion">
+                    <p>4 meses</p> <p>1 clase/semanal</p>
+                </div>
+            </div>
+            <div class="cursos">
+                <img src="./img/diseno.webp" alt="disenio course">
+                <p>Diseñá interfaces de usuario para apps móviles, enfocándote en los principios de UX/UI. Aprendé a investigar, conceptualizar, y desarrollar prototipos, siguiendo un proceso completo de diseño.</p>
+                <div class="duracion">
+                    <p>4 meses</p> <p>1 clase/semanal</p>
+                </div>
+            </div>
+            <div class="cursos">
+                <img src="./img/js.webp" alt="js course">
+                <p>Aprenderemos a crear sitios web dinámicos desde cero con HTML, CSS y JavaScript. Al finalizar, podrás construir sitios webs profesionales y contarás con proyectos para tu portafolio profesional.</p>
+                <div class="duracion">
+                    <p>4 meses</p> <p>1 clase/semanal</p>
+                </div>
+            </div>
+        </div>
     </main>
     <!-- Seccion pie de pagina-->
     <footer>
