@@ -93,20 +93,21 @@
                 <video src="./img/chill, lofi & synth para programar, estudiar y montar tu pc.mp4" muted autoplay repeat></video>
             </div>
             <div class="inscripcion">
-                <form action="https://formspree.io/f/mnnqpjve" method="post" id="form">
-                    <div id="error">
-                    </div>
+                <form action="https://formspree.io/f/xnnqpznl" method="post" id="form">
+                    <div id="error" class="error"></div>
                     <div class="input">
                         <input type="text" name="user" id="user" placeholder="User">
                     </div>
                     <div class="input">
-                        <input type="email" name="email" id="email" placeholder="email">
+                        <input type="email" name="email" id="email" placeholder="email" required>
                     </div>
+                    <div id="error2" class="error"></div>
                     <div class="input">
-                        <input type="password" name="password" id="password" placeholder="Password">
+                        <input type="password" name="password" id="password" placeholder="Password" required>
                     </div>
+                    <div id="error3" class="error"></div>
                     <div class="input">
-                        <input type="password" name="confir-password" id="confir-password" placeholder="confirm Password">
+                        <input type="password" name="confirm-password" id="confirm-password" placeholder="confirm Password" required>
                     </div>
                     <div class="shot">
                         <input type="submit" value="Login">
