@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi pagina!</title>
     <link rel="stylesheet" href="./CSS/styles.css">
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
 </head>
 <body>
     <!-- Encabezado de la pagina-->
@@ -28,26 +29,39 @@
         <section class="Primera_seccion">
             <div class="cursos">
                 <img src="./img/phyton.webp" alt="python course">
-                <p>Accedé a las tecnologías más influyentes. Este programa está diseñado para principiantes que desean iniciarse en la programación y para quienes buscan especializarse en áreas innovadoras y demandadas.</p>
+                <p>Curso de python. Accedé a las tecnologías más influyentes. Este programa está diseñado para principiantes que desean iniciarse en la programación y para quienes buscan especializarse en áreas innovadoras y demandadas.</p>
                 <div class="duracion">
                     <p>4 meses</p> <p>1 clase/semanal</p>
                 </div>
+                <button class="agregar-carrito">Agregar al carrito</button>
             </div>
             <div class="cursos">
                 <img src="./img/diseno.webp" alt="disenio course">
-                <p>Diseñá interfaces de usuario para apps móviles, enfocándote en los principios de UX/UI. Aprendé a investigar, conceptualizar, y desarrollar prototipos, siguiendo un proceso completo de diseño.</p>
+                <p>Curso de diseño. Diseñá interfaces de usuario para apps móviles, enfocándote en los principios de UX/UI. Aprendé a investigar, conceptualizar, y desarrollar prototipos, siguiendo un proceso completo de diseño.</p>
                 <div class="duracion">
                     <p>4 meses</p> <p>1 clase/semanal</p>
                 </div>
+                <button class="agregar-carrito">Agregar al carrito</button>
             </div>
             <div class="cursos">
                 <img src="./img/js.webp" alt="js course">
-                <p>Aprenderemos a crear sitios web dinámicos desde cero con HTML, CSS y JavaScript. Al finalizar, podrás construir sitios webs profesionales y contarás con proyectos para tu portafolio profesional.</p>
+                <p>Curso de JavaScript. Aprenderemos a crear sitios web dinámicos desde cero con HTML, CSS y JavaScript. Al finalizar, podrás construir sitios webs profesionales y contarás con proyectos para tu portafolio profesional.</p>
                 <div class="duracion">
                     <p>4 meses</p> <p>1 clase/semanal</p>
                 </div>
+                <button class="agregar-carrito">Agregar al carrito</button>
             </div>
         </section>
+
+        <section class="carrito">
+            <h1>Carrito</h1>
+            <ul id="lista-carrito">
+                <!-- Los elementos seleccionados aparecerán aquí -->
+            </ul>
+            <p>Total: $<span id="total">0</span></p>
+            <button id="finalizar-compra">Comprar</button>
+        </section>
+
         <h1>RESEÑAS</h1>
         <section class="Segunda_seccion">
             <div class="card" id="Mati">
@@ -87,7 +101,7 @@
                 <cite>María Fernández, Directora de Recursos Humanos en TechGrowth</cite>
             </div>
         </section>
-        <h1>INSCRIBITE!</h1>
+        <h1>SE PARTE DE TALENTO TECH!</h1>
         <section class="Tercera_seccion">
             <div>
                 <video src="./img/chill, lofi & synth para programar, estudiar y montar tu pc.mp4" muted autoplay repeat></video>
@@ -115,8 +129,7 @@
                     </div>
                 </form>
             </div>
-        </section>
-        
+        </section>   
     </main>
     <!-- Seccion pie de pagina-->
     <footer>

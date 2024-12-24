@@ -67,8 +67,14 @@ section{
     border-radius: 4%;
     border: 2px solid #ececec;
 }
+.cursos 
 .cursos p{
     padding: 8px;
+}
+
+.cursos .agregar-carrito{
+    position: relative;
+    left: 30%;
 }
 
 .cursos:hover {
@@ -140,7 +146,55 @@ footer{
     border-radius: 5px;
 }
 
-@media screen and (max-width: 600px) {
+/*Carrito*/
+.carrito {
+    border: 1px solid #1c1c1c;
+    padding: 2%;
+    margin: 2% 0;
+    width: 50%;
+    background-color: #ececec;
+    border-radius: 5px;
+}
+
+.carrito ul {
+    list-style: none;
+    padding: 0;
+}
+
+.carrito li {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+#finalizar-compra {
+    padding: 10px;
+    background-color: #1c1c1c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#finalizar-compra:hover {
+    background-color: #555;
+}
+
+.agregar-carrito {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.agregar-carrito:hover {
+    background-color: #0056b3;
+}
+
+
+@media screen and (max-width: 950px) {
 
     html{
         box-sizing: border-box;
@@ -169,11 +223,13 @@ footer{
 
     .Tercera_seccion{
         display: flex;
-        align-items: stretch;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     video{
-        width: 200px;
+        width: 400px;
     }
 
     .shot{
