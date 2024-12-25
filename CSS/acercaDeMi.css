@@ -40,14 +40,57 @@ body{
 
 main{
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
-    width: 80%;
+    flex-wrap: wrap;
+    width: 60%;
+    border: 2px solid #e4e2e2;
+    border-radius: 4px;
 }
-section{
+
+main h1{
+    text-align: center;
+}
+
+#primera{
+    position: relative;
+    left: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 5%;
+    margin-bottom: 5%;
+    margin-top: 2%;
+}
+
+#primera ul{
+    width: 30%;
+}
+
+#primera li{
+    padding: 2%;
+}
+
+#primera img{
+    width: 220px;
+    border-radius: 4px;
+}
+
+#segunda #areas{
+    position: relative;
+    left: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#segunda ul{
+    width: 80%;
+}
+
+#tercera{
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    margin-bottom: 5%;
 }
